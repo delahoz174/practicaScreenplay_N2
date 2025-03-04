@@ -6,13 +6,13 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
 
-public class CompareName implements Question <String>{
+public class CompareLogin implements Question <String>{
     @Override
     public String answeredBy(Actor actor){
         return Text.of(LoginPage.COMPARE).viewedBy(actor).asString();
     }
 
-    public static CompareName compare(){
-        return new CompareName();
+    public static CompareLogin compare(){
+        return new CompareLogin();
     }
 }

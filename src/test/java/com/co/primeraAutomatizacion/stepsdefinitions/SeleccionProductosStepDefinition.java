@@ -1,10 +1,7 @@
 package com.co.primeraAutomatizacion.stepsdefinitions;
 
-import com.co.primeraAutomatizacion.questions.CompareName;
 import com.co.primeraAutomatizacion.questions.CompareValor;
-import com.co.primeraAutomatizacion.tasks.LoginTask;
 import com.co.primeraAutomatizacion.tasks.SeleccionProductoTask;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.GivenWhenThen;

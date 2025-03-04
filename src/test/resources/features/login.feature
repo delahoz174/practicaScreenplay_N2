@@ -1,6 +1,11 @@
-Feature: Login
+# language: es
 
-  Scenario: login exitoso
-    Given el usuario abre la pagina web
-    When el usuario ingresa las credenciales
-    Then el usuario podra ver su nombre
+Característica: Inicio de sesion
+    Como usuario del sistema
+    Quiero ingresar con mis credenciales
+    Para acceder a la plataforma
+
+    Escenario: Login exitoso
+        Dado que el usuario abre la pagina de inicio de sesion
+        Cuando ingresa las credenciales validas
+        Entonces deberia ver el texto "Dashboard"
